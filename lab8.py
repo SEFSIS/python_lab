@@ -26,7 +26,7 @@ def writeResBin(fName, result):
     with open(fName, 'wb') as f:
         f.write(struct.pack('d', result))
 
-# Функція для зчитування результату з  бінарного файлу
+# Функція для зчитування результату з бінарного файлу
 def readResBin(fName):
     result = 0.0
     try:
